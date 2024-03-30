@@ -35,8 +35,14 @@
     --nav-border: #FBFDFF33; 
     --bg-color:#020D15; 
     --blue-line:#0389FF;     
-    --white-smoke:#FBFDFF;                          
+    --white-smoke:#FBFDFF;   
+    --blue-100:#0389FF1F;                       
 }
+.blue-100{
+    background-color: var(--blue-100);
+    
+}
+
 .white-smaoke{
     color: var(--white-smoke);
 }
