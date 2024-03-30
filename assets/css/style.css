@@ -33,18 +33,30 @@
 .pt-82{
     padding-top: 82px;
 }
+.pt-102{
+    padding-top: 102px;
+}
 .pb-28{
     padding-bottom: 28px;
 }
 .pb-134{
     padding-bottom: 134px;
 }
+.pb-177{
+    padding-bottom: 177px;
+}
 /* -------------------------------------------padding */
 /* -------------------------------------------margin */
+.mb-10{
+    margin-bottom: 10px;
+}
 /* -------------------------------------------margin */
 /* -------------------------------------------gap */
 .gap-17{
     gap: 17px;
+}
+.gap-22{
+    gap: 22px;
 }
 .gap-46{
     gap: 46px;
@@ -144,9 +156,40 @@
 .blur-10{
     backdrop-filter: blur(10px);
 }
+.duration-300{
+    transition: all 300ms linear !important;
+    
+}
 .img-shadow{    
     box-shadow: 0px 10px 100px 0px #000000CC;
 }
+.icon-box{
+    height: 64px !important;
+    max-width: 64px;
+    background-color: #0389FF1A;
+
+}
+.box-2{
+    padding: 22px 22px 23px;
+    border-radius: 10px;
+    transition: all 300ms linear !important;
+    background: #0389FF1F;
+}
+ .box-2:hover{
+    padding: 17px 15px 35px;
+
+
+}
+.box-2:hover h4{
+    color: #0389FF !important;
+}
+.box-2:hover h5{
+    display:  block !important;
+    
+}
+.box-2:hover .icon-box{
+    display: flex !important;
+} 
 
 
 
