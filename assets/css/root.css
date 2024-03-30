@@ -33,10 +33,18 @@
     --white: #FFF;
     --black: #000;      
     --nav-border: #FBFDFF33; 
-    --bg-color:#020D15;                                
+    --bg-color:#020D15; 
+    --blue-line:#0389FF;     
+    --white-smoke:#FBFDFF;                          
+}
+.white-smaoke{
+    color: var(--white-smoke);
 }
 .bg-color{
     background-color: var(--bg-color);
+}
+.color-blue{
+    color: var(--blue-line);
 }
 
 .line-height-13{

@@ -21,10 +21,19 @@
 .pr-12{
     padding-right: 12px;
 }
+.pt-81{
+    padding-top: 81px;
+}
+.pb-28{
+    padding-bottom: 28px;
+}
 /* -------------------------------------------padding */
 /* -------------------------------------------margin */
 /* -------------------------------------------margin */
 /* -------------------------------------------gap */
+.gap-17{
+    gap: 17px;
+}
 .gap-46{
     gap: 46px;
 }
@@ -80,11 +89,19 @@
 .opacity-8{
     opacity: 80%;
 }
+.opacity-7{
+    opacity: 70%;
+}
 .hero-img{
     background-image: url(../images/webp/t61.png);
     background-repeat: no-repeat;
     /* background-position: 100% 100%; */
     /* background-size: cover; */
+}
+.blut-line{
+    width: 109px;
+    height: 2px;
+    background-color: var(--blue-line);
 }
 
 
