@@ -21,14 +21,19 @@
 
 
      // --------slider
-     $('.responsive').slick({      
+     $('.first-slider').slick({      
         prevArrow: ".pre-btn",
         nextArrow: ".next-btn",
         infinite: true,
         dots: false,
         speed: 300,
-        slidesToShow: 1,
-        slidesToScroll: 1,
+        slidesToShow: 8,
+        slidesToScroll: 1,                
+        autoplay: true,
+        autoplaySpeed: 0,
+        speed: 8000,
+        pauseOnHover: false,
+        cssEase: 'linear',
         responsive: [
           {
             breakpoint: 1024,
