@@ -15,6 +15,12 @@
 }
 /* -------------------------------------------font-family */
 /* -------------------------------------------padding */
+.pl-12{
+    padding-left: 12px;
+}
+.pr-12{
+    padding-right: 12px;
+}
 /* -------------------------------------------padding */
 /* -------------------------------------------margin */
 /* -------------------------------------------margin */
@@ -29,6 +35,9 @@
 /* -------------------------------------------width */
 .max-w-1140 {
     max-width: 1140px !important;
+}
+.max-w-1350{
+    max-width: 1350px;
 }
 /* -------------------------------------------width */
 /* -------------------------------------------btn */
@@ -71,6 +80,12 @@
 .opacity-8{
     opacity: 80%;
 }
+.hero-img{
+    background-image: url(../images/webp/t61.png);
+    background-repeat: no-repeat;
+    /* background-position: 100% 100%; */
+    /* background-size: cover; */
+}
 
 
 
@@ -111,6 +126,9 @@
 /* ------------------------------------------navbar */
 .hamburger {
     display: none;
+}
+.nav-boder{
+    border-bottom: 1px solid var(--nav-border);
 }
 @media(max-width: 992px) {
     .menulist {

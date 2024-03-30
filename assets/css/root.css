@@ -31,7 +31,12 @@
     --line-height-60: 60px;
 
     --white: #FFF;
-    --black: #000;                                       
+    --black: #000;      
+    --nav-border: #FBFDFF33; 
+    --bg-color:#020D15;                                
+}
+.bg-color{
+    background-color: var(--bg-color);
 }
 
 .line-height-13{
