@@ -39,6 +39,9 @@
 .pb-28{
     padding-bottom: 28px;
 }
+.pb-44{
+    padding-bottom: 44px;
+}
 .pb-134{
     padding-bottom: 134px;
 }
@@ -52,6 +55,9 @@
 }
 /* -------------------------------------------margin */
 /* -------------------------------------------gap */
+.gap-14{
+    gap: 14px;
+}
 .gap-17{
     gap: 17px;
 }
@@ -191,8 +197,26 @@
     display: flex !important;
 } 
 
+.box-3{
+    border-radius: 10px;
+    padding: 13px 16px;
+    max-width: 400px;
+    background-color: #0389FF1F;
+}
+.min-box-3{
+    background-color: #0389FF1F;
+    width: 51px;
+    height: 51px;
+}
+.box-3:hover .min-box-3{
+    background-color: #FBFDFF;    
+}
+.box-3:hover h5{
 
-
+    color: #FBFDFF ;
+    opacity: 1;
+    
+}
 
 
 
