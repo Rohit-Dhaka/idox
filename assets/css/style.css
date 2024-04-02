@@ -233,12 +233,13 @@
 .btn-1 {
     padding: 13px 32px;
     box-shadow: 0px 4px 32px 0px #2746ED80;
-    background-image: linear-gradient(159.94deg, rgba(0, 136, 255, 0.58) -14.36%, #0069E3 113.71%);
+    /* background-image: linear-gradient(159.94deg, rgba(0, 136, 255, 0.58) -14.36%, #0069E3 113.71%); */
     border-radius: 40px;
     border: 1px solid transparent;
     text-transform: uppercase;
     transition: 0.5s;
-    background: linear-gradient(90deg, var(--c1, #0088FF), var(--c2, #0069E3) 60%, var(--c1, white)) var(--x, 0)/ 550%;
+    background: linear-gradient(90deg, var(--c1, #0088FF) , var(--c2, #0069E3) 60%, var(--c1, white)) var(--x, 0)/ 550%;
+    border: 1px solid #0088FF;
     color: white;
 
 }
