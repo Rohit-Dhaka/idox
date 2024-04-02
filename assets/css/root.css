@@ -36,7 +36,9 @@
     --bg-color:#020D15; 
     --blue-line:#0389FF;     
     --white-smoke:#FBFDFF;   
-    --blue-100:#0389FF1F;                       
+    --blue-100:#0389FF1F;      
+    --dots:#FAFAFA;
+    --blue:#1219D2;
 }
 .blue-100{
     background-color: var(--blue-100);
