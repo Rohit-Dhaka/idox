@@ -23,7 +23,9 @@
 .pl-12 {
     padding-left: 12px;
 }
-
+.pl-44{
+    padding-left: 44px !important;
+}
 .pr-12 {
     padding-right: 12px;
 }
@@ -36,6 +38,9 @@
 }
 .pt-19 {
     padding-top: 19px;
+}
+.pt-20{
+    padding-top: 20px;
 }
 .pt-25{
     padding-top: 25px;
@@ -51,7 +56,21 @@
 .pt-45 {
     padding-top: 45px;
 }
-
+.pt-51{
+    padding-top: 51px;
+}
+.pt-87{
+    padding-top: 87px;
+}
+.pt-58{
+    padding-top: 58px;
+}
+.pb-23{
+    padding-bottom: 23px;
+}
+.pt-56{
+    padding-top: 56px;
+}
 .pt-81 {
     padding-top: 81px;
 }
@@ -89,6 +108,9 @@
 
 .pb-28 {
     padding-bottom: 28px;
+}
+.pb-33{
+    padding-bottom: 33px;
 }
 .pb-42{
     padding-bottom: 42px;
@@ -139,6 +161,9 @@
 .gap-22 {
     gap: 22px;
 }
+.gap-23{
+    gap: 23px;
+}
 
 .gap-46 {
     gap: 46px;
@@ -174,31 +199,41 @@
     background-image: linear-gradient(159.94deg, rgba(0, 136, 255, 0.58) -14.36%, #0069E3 113.71%);
     border-radius: 40px;
     border: 1px solid transparent;
-
-}
-
-.btn-1 {
-    /* flex: 1 1 auto; */
-    /* margin: 10px; */
-    /* padding: 30px; */
-    /* text-align: center; */
     text-transform: uppercase;
     transition: 0.5s;
     background: linear-gradient(90deg, var(--c1, #0088FF), var(--c2, #0069E3) 60%, var(--c1, white)) var(--x, 0)/ 550%;
     color: white;
-    /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2); */
-    /* box-shadow: 0 0 20px #eee; */
-    /* border-radius: 10px; */
+
 }
 
-.btn-5 {
+
+/* .btn-5 {
     --c1: red;
     --c2: #0069E3;
-}
+} */
 
 .btn-1:hover {
     --x: 100%;
     color: #0069E3 !important;
+}
+.btn-2{
+    padding: 13px 32px;
+    /* box-shadow: 0px 4px 32px 0px #2746ED80;     */
+    background-image: linear-gradient(159.94deg, rgba(0, 136, 255, 0.58) -14.36%, #0069E3 113.71%);
+    border-radius: 40px;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    border: 1px solid #B0B5B9;
+    transition: 0.5s;
+    background: linear-gradient(90deg, var(--c1, transparent), var(--c2, transparent) 60%, var(--c1, #0163C9)) var(--x, 0)/ 550%;
+    color: #FBFDFF;
+
+}
+.btn-2:hover {
+    --x: 100%;
+    color: white !important;
+    border: 1px solid transparent;
+
 }
 
 /* -------------------------------------------btn */
@@ -416,6 +451,9 @@
 }
 .h-170{
     height: 170px;
+}
+.card-2:hover h5{
+    color: #0389FF;
 }
 /* ------------------------------------------slider-two */
 .slider-box {
