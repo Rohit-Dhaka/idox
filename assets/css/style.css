@@ -56,6 +56,9 @@
 .pt-46 {
     padding-top: 46px;
 }
+.pt-71{
+    padding-top: 71px;
+}
 .pt-75{
     padding-top: 75px;
 }
@@ -70,6 +73,9 @@
 
 .pt-130 {
     padding-top: 130px;
+}
+.pt-174{
+    padding-top: 174px;
 }
 .pt-207{
     padding-top: 207px;
@@ -89,6 +95,9 @@
 }
 .pb-76{
     padding-bottom: 76px;
+}
+.pb-121{
+    padding-bottom: 121px;
 }
 
 .pb-134 {
@@ -333,6 +342,10 @@
 
     transform: scale(1.1);
 }
+.img-scale:hover{
+    transform: scale(1.1);
+
+}
 
 .icon-box {
     height: 64px !important;
@@ -387,6 +400,19 @@
 .box-3:hover h5 {
     color: #FBFDFF;
     opacity: 1;
+}
+
+.right-border{
+    
+    border-right: 1px solid #273239;
+
+} 
+.bottom-border{
+    border-bottom: 1px solid #273239;
+
+}
+.h-170{
+    height: 170px;
 }
 /* ------------------------------------------slider-two */
 .slider-box {
