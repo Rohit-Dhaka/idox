@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url(./root.css);
 
 * {
@@ -14,6 +14,9 @@
 .font-Plus {
     font-family: "Plus Jakarta Sans", sans-serif;
 }
+.font-poppins{
+    font-family: "Poppins", sans-serif;
+}
 
 /* -------------------------------------------font-family */
 /* -------------------------------------------padding */
@@ -28,9 +31,14 @@
 .pt-13 {
     padding-top: 13px;
 }
-
+.pt-7{
+    padding-top: 7px;
+}
 .pt-19 {
     padding-top: 19px;
+}
+.pt-25{
+    padding-top: 25px;
 }
 
 .pt-28 {
@@ -48,6 +56,9 @@
 .pt-46 {
     padding-top: 46px;
 }
+.pt-75{
+    padding-top: 75px;
+}
 
 .pt-82 {
     padding-top: 82px;
@@ -62,6 +73,9 @@
 }
 .pt-207{
     padding-top: 207px;
+}
+.pb-10{
+    padding-bottom: 10px;
 }
 
 .pb-28 {
@@ -87,12 +101,18 @@
 
 /* -------------------------------------------padding */
 /* -------------------------------------------margin */
+.mt-9{
+    margin-top: 9px !important;
+}
 .mb-10 {
     margin-bottom: 10px;
 }
 
 /* -------------------------------------------margin */
 /* -------------------------------------------gap */
+.gap-11{
+    gap: 11px;
+}
 .gap-14 {
     gap: 14px;
 }
@@ -167,6 +187,56 @@
 }
 
 /* -------------------------------------------btn */
+/* -------------------------------------------card */
+
+.card{
+    background: #0389FF1F;
+    border-radius: 15px;
+    padding: 23px 20px 20px 21px;
+    width: 231px;
+    height: 228.68px;
+}
+.card-contant{
+    border-radius: 22px;
+    border: 1px solid #1A2B37;
+    background: #00000054;
+    padding: 12px 7px 6px 10px;
+    width: 189.36px;
+    height: 185.41px;
+}
+.click-box{
+    border: 1px dotted #0389FF;
+    border-radius: 5px;
+    padding: 9px 7px;
+}
+.select-box{
+    background: linear-gradient(99.45deg, #0389FF 0%, #0069E3 100%);
+    padding: 3px 15px;
+    border-radius: 44px;
+    outline: none;
+
+}
+.top-icon{
+    /* background: red; */
+    border-radius: 103px;
+    width: 40px;
+    height: 34px;
+    border: 1px solid #0389FF33 ;
+    display: block;
+    top: -17px;
+    backdrop-filter: blur(10px);
+    right: -20px;
+
+}
+.blue-tick{
+    padding: 2.5px;
+}
+.bg-blue{
+    background-color: #0389FF;
+    border-radius: 4px;
+    padding: 3px 5px 2px 2px;
+}
+/* -------------------------------------------card */
 
 
 
