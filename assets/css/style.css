@@ -48,7 +48,12 @@
 .pt-25{
     padding-top: 25px;
 }
-
+.pt-27{
+    padding-top: 27px;
+}
+.pb-27{
+    padding-bottom: 27px;
+}
 .pt-28 {
     padding-top: 28px;
 }
@@ -98,6 +103,9 @@
 .pt-102 {
     padding-top: 102px;
 }
+.pt-110{
+    padding-top: 110px;
+}
 .pt-122{
     padding-top: 122px;
 }
@@ -112,6 +120,9 @@
 }
 .pb-10{
     padding-bottom: 10px;
+}
+.pb-95{
+    padding-bottom: 95px;
 }
 
 .pb-28 {
@@ -494,6 +505,9 @@
     bottom: 0;
 
 
+}
+.top-border{
+    border-top: 1px solid #344553;
 }
 /* ------------------------------------------slider-two */
 .slider-box {
