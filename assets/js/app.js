@@ -22,14 +22,14 @@ function mobileMenu() {
 
 // --------slider
 $('.first-slider').slick({
-  prevArrow: ".pre-btn",
-  nextArrow: ".next-btn",
+    
   infinite: true,
   dots: false,
   speed: 300,
   slidesToShow: 8,
   slidesToScroll: 1,
-  autoplay: true,
+  autoplay: true,  
+  pauseOnHover: true,  
   autoplaySpeed: 0,
   speed: 3000,
   pauseOnHover: false,
@@ -38,7 +38,7 @@ $('.first-slider').slick({
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 6,
         slidesToScroll: 1,
         infinite: true,
         autoplay: true,
@@ -47,18 +47,18 @@ $('.first-slider').slick({
       }
     },
     {
-      breakpoint: 600,
+      breakpoint: 700,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 5,
         slidesToScroll: 1,
         autoplay: true,
         cssEase: 'linear'
       }
     },
     {
-      breakpoint: 480,
+      breakpoint: 500,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
         cssEase: 'linear'
