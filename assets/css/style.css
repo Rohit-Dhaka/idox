@@ -6,6 +6,7 @@
     scroll-behavior: smooth;
     margin: 0;
     list-style: none !important;
+    /* outline: 1px solid red; */
     text-decoration: none !important;
     box-sizing: border-box;
 }
@@ -349,8 +350,8 @@
     bottom: -20%;
 }
 .Ellipse3542{
-    top: -40%;    
-    left: 15%;
+    top: -10%;    
+    left: 20%;
 }
 .Ellipse355{
     left: 0;
@@ -361,9 +362,12 @@
 }
 .Ellipse356{
     top: -50%;
+    
 }
 .Ellipse3552{
+    
     left: -70%;
+    
 }
 
 /* -------------------------------------------ellipse */
@@ -408,9 +412,16 @@
 .hero-img {
     background-image: url(../images/webp/t61.png);
     background-repeat: no-repeat;
-    /* background-size: ; */
+    background-size:  100% 65%;
     background-position:top;
     
+}
+.bg-img{
+    background-image: url(../images/webp/t61.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position:center;
+
 }
 
 .blut-line {
@@ -589,7 +600,8 @@
 .slider-box {
     padding: 27px 56px 42px;
     border-radius: 20px;
-    background-color: #0389FF1F;    
+    background-color: #0389FF1F;  
+    max-width: 946px !important;  
 }
 .slider-two .slick-slide {
     margin: 0 12px;
