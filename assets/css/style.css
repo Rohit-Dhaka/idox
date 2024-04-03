@@ -135,9 +135,7 @@
 }
 
 
-.pt-110 {
-    padding-top: 110px;
-}
+
 
 
 
@@ -146,9 +144,7 @@
     padding-bottom: 10px;
 }
 
-.pb-95 {
-    padding-bottom: 95px;
-}
+
 
 .pb-28 {
     padding-bottom: 28px;
@@ -243,6 +239,10 @@
 
 .max-w-1210 {
     max-width: 1210px;
+}
+.max-w-1312{
+    max-width: 1312px !important;
+
 }
 
 .max-w-1350 {
@@ -403,6 +403,29 @@
 }
 
 /* -------------------------------------------ellipse */
+/* -------------------------------------------back-to-top */
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+/* -------------------------------------------back-to-top */
+
 
 
 
@@ -917,6 +940,12 @@
     }  
     .mx-lg-110{
         margin: 0 110px !important;
+    }
+    .pt-lg-110 {
+        padding-top: 110px !important;
+    }
+    .pb-lg-95 {
+        padding-bottom: 95px !important;
     }
 
 }
