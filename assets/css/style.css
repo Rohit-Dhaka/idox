@@ -539,6 +539,10 @@
 .media-icon svg path{
     transition: all 300ms linear;
 }
+.right-arrow{
+    right: -2%;
+    top: 35%;
+}
 /* ------------------------------------------slider-two */
 .slider-box {
     padding: 27px 56px 42px;
