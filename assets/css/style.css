@@ -325,8 +325,48 @@
     padding: 3px 5px 2px 2px;
 }
 /* -------------------------------------------card */
+/* -------------------------------------------ellipse */
 
+.Ellipse347{
+    bottom: -20%;
+    left: -10%;
+    
+}
+.Ellipse351{
+    right: 0;
+    top: -30%;
+}
+.Ellipse352{
+    left: 0;
+    bottom: -30%;
+}
+.Ellipse3512{
+    right: 0;
+    bottom: -40%;
+}
+.Ellipse354{
+    right: 0;
+    bottom: -20%;
+}
+.Ellipse3542{
+    top: -40%;    
+    left: 15%;
+}
+.Ellipse355{
+    left: 0;
+}
+.Ellipse3523{
+    top: -35%;
+    left: -20%;
+}
+.Ellipse356{
+    top: -50%;
+}
+.Ellipse3552{
+    left: -70%;
+}
 
+/* -------------------------------------------ellipse */
 
 
 
@@ -368,7 +408,9 @@
 .hero-img {
     background-image: url(../images/webp/t61.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: ; */
+    background-position:top;
+    
 }
 
 .blut-line {
