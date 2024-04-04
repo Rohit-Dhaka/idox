@@ -276,16 +276,14 @@
 .card {
     background: var(--blue-100);
     border-radius: 15px;
-    padding: 23px 20px 20px 21px;    
-    height: 228.68px;
+    padding: 23px 20px 20px 21px;        
 }
 
 .card-contant {
     border-radius: 22px;
     border: 1px solid var(--blue-400);
     background: var(--black-100);
-    padding: 12px 7px 6px 10px;    
-    height: 185.41px;
+    padding: 12px 7px 6px 10px;        
 }
 
 .click-box {
@@ -454,13 +452,18 @@
 
 /* -------------------------------------------back-to-top */
 #myBtn {
-    display: none;    
-    bottom: 20px;
-    right: 30px;            
-    outline: none;    
     background: linear-gradient(90deg, var(--c1, var(--sky)), var(--c2, var(--blue-200)) 60%, var(--c1, var(--white))) var(--x, 0)/ 550%;        
-    padding:  15px;
-}
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: var(--fs-5xl);
+    border: none;
+    outline: none;            
+    padding: 12px 15px;
+    border-radius: 4px;
+  }
 
 /* -------------------------------------------back-to-top */
 .cursor-pointer {
@@ -546,8 +549,10 @@
 .box-1:hover {
     transform: scale(1.1);
 }
-
-.img-scale:hover {
+.img-scale:hover{
+    box-shadow: 0px 0px 10px 0.5px white;    
+}
+.img-scale:hover img{
     transform: scale(1.1);
 }
 
@@ -701,7 +706,7 @@
     margin: 5px;
     padding: 0;
     font-family: slick;
-    font-size: 30px;
+    font-size: var(--fs-7xl);
     width: 10px;
     height: 10px;
     content: '';
@@ -742,7 +747,7 @@
     border-bottom: 1px solid var(--nav-border);
 }
 
-@media(max-width: 992px) {
+@media(max-width: 991.98px) {
     .menulist {
         position: fixed;
         right: -100%;
@@ -801,7 +806,7 @@
 /* ------------------------------------------navbar */
 
 
-@media (max-width: 575px) {
+@media (max-width: 574.98px) {
     .email-box {
         background-color: var(--gray-100) !important;
         border-radius: 29px;
@@ -810,6 +815,10 @@
     .slider-box {
         padding: 20px;
         max-width: 300px !important;
+    }
+    #myBtn{
+        bottom: 15px;
+        right: 15px;
     }
 }
 
@@ -845,6 +854,13 @@
     .slider-box {
         padding: 25px 30px;
         max-width: 500px !important;
+    }
+    .card {                           
+        height: 228.68px;
+    }
+    
+    .card-contant {                                
+        height: 185.41px;
     }
 }
 

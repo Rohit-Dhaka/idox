@@ -15,11 +15,6 @@ function mobileMenu() {
 }
 
 
-
-
-
-
-
 // --------slider
 $('.first-slider').slick({
   infinite: true,
@@ -93,9 +88,9 @@ document.getElementById("year").innerHTML = year
 
 // ------------------------------back-to-top-btn
 let mybutton = document.getElementById("myBtn");
-window.onscroll = function () { scrollFunction() };
+window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
-  if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
@@ -117,6 +112,6 @@ document.addEventListener("DOMContentLoaded", function () {
       let loadingOverlay = document.getElementById("loadingOverlay");
       loadingOverlay.style.display = "none";
       document.querySelector("body").classList.remove("overflow_hidden");
-    },3000);
+    },1000);
   });
 });
