@@ -22,19 +22,18 @@ function mobileMenu() {
 
 // --------slider
 $('.first-slider').slick({
-
   infinite: true,
   dots: false,
   speed: 300,
   slidesToShow: 7,
   slidesToScroll: 1,
-  autoplay: true,
-  pauseOnHover: true,
+  autoplay: true,  
   variableWidth: true,
   autoplaySpeed: 0,
   speed: 3000,
   pauseOnHover: false,
-  cssEase: 'linear',    
+  cssEase: 'linear',     
+  pauseOnHover:true, 
 });
 
 
@@ -42,9 +41,10 @@ $('.first-slider').slick({
 $('.slider-two').slick({    
   infinite: true,
   dots: true,
-  speed: 300,
+  speed: 800,
   slidesToShow: 1,
   centerMode: true,  
+  autoplay:true,
   slidesToScroll: 1,
   cssEase: 'linear',  
   variableWidth: true,          
