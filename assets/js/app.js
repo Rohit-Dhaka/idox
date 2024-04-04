@@ -26,63 +26,28 @@ $('.first-slider').slick({
   infinite: true,
   dots: false,
   speed: 300,
-  slidesToShow: 8,
+  slidesToShow: 7,
   slidesToScroll: 1,
   autoplay: true,
   pauseOnHover: true,
+  variableWidth: true,
   autoplaySpeed: 0,
   speed: 3000,
   pauseOnHover: false,
-  cssEase: 'linear',
-
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 6,
-        slidesToScroll: 1,
-        infinite: true,
-        autoplay: true,
-        cssEase: 'linear'
-
-      }
-    },
-    {
-      breakpoint: 700,
-      settings: {
-        slidesToShow: 5,
-        slidesToScroll: 1,
-        autoplay: true,
-        cssEase: 'linear'
-      }
-    },
-    {
-      breakpoint: 500,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: true,
-        cssEase: 'linear'
-      }
-    }
-  ]
+  cssEase: 'linear',    
 });
 
 
 // --------slider-two
-$('.slider-two').slick({
+$('.slider-two').slick({    
   infinite: true,
   dots: true,
   speed: 300,
   slidesToShow: 1,
-  centerMode: true,
-  dotsClass: 'slick-dots',
+  centerMode: true,  
   slidesToScroll: 1,
-  cssEase: 'linear',
-  variableWidth: true,
-  customPaging: function (slider, i) {
-    return '<a href="#"><img src="./assets/images/svg/dotts.svg"/><img src="./assets/images/svg/activedot.svg"/></a>';
-  },
+  cssEase: 'linear',  
+  variableWidth: true,          
   responsive: [
     {
       breakpoint: 1024,

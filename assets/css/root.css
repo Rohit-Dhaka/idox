@@ -35,14 +35,24 @@
     --nav-border: #FBFDFF33; 
     --bg-color:#020D15; 
     --blue-line:#0389FF;     
-    --white-smoke:#FBFDFF;   
+    --white-smoke:#FBFDFF;  
+    --white-200:#B0B5B9; 
     --blue-100:#0389FF1F;      
     --dots:#FAFAFA;
     --blue:#1219D2;
+    --blue-300:#0389FF33;
+    --blue-400:#1A2B37;
     --blue-200:#0069E3;
     --footer: #021728;
     --black-shadow:#000000CC;
     --sky:#0088FF;
+    --sky-100:#0163C9;
+    --gray-100:#FBFDFF12;
+    --gray-200:#808B93;
+    --gray-300:#344553;
+    --gray-400:#273239;
+    --gray-500:#0389FF1A;
+    --black-100:#00000054;
 }
 .footer-bg{
     background-color: var(--footer);
