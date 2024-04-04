@@ -22,18 +22,19 @@ function mobileMenu() {
 
 // --------slider
 $('.first-slider').slick({
-    
+
   infinite: true,
   dots: false,
   speed: 300,
   slidesToShow: 8,
   slidesToScroll: 1,
-  autoplay: true,  
-  pauseOnHover: true,  
+  autoplay: true,
+  pauseOnHover: true,
   autoplaySpeed: 0,
   speed: 3000,
   pauseOnHover: false,
   cssEase: 'linear',
+
   responsive: [
     {
       breakpoint: 1024,
@@ -69,7 +70,7 @@ $('.first-slider').slick({
 
 
 // --------slider-two
-$('.slider-two').slick({    
+$('.slider-two').slick({
   infinite: true,
   dots: true,
   speed: 300,
@@ -77,17 +78,11 @@ $('.slider-two').slick({
   centerMode: true,
   dotsClass: 'slick-dots',
   slidesToScroll: 1,
-  // autoplay: true,      
   cssEase: 'linear',
-  // dots: true,
-  //   infinite: true,
-  //   speed: 300,
-  //   arrows: false,
-    variableWidth:true,
-  //   centerMode:true,
-  //   autoplay: true,
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1,
+  variableWidth: true,
+  customPaging: function (slider, i) {
+    return '<a href="#"><img src="./assets/images/svg/dotts.svg"/><img src="./assets/images/svg/activedot.svg"/></a>';
+  },
   responsive: [
     {
       breakpoint: 1024,
@@ -126,7 +121,7 @@ $('.slider-two').slick({
 
 const d = new Date();
 let year = d.getFullYear();
-document.getElementById("year").innerHTML= year
+document.getElementById("year").innerHTML = year
 
 
 
@@ -135,10 +130,10 @@ document.getElementById("year").innerHTML= year
 let mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";

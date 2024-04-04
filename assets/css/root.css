@@ -39,7 +39,10 @@
     --blue-100:#0389FF1F;      
     --dots:#FAFAFA;
     --blue:#1219D2;
+    --blue-200:#0069E3;
     --footer: #021728;
+    --black-shadow:#000000CC;
+    --sky:#0088FF;
 }
 .footer-bg{
     background-color: var(--footer);
