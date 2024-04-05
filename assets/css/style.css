@@ -862,6 +862,7 @@
     .card-contant {                                
         height: 185.41px;
     }
+   
 }
 
 @media (min-width: 768px) {
@@ -881,6 +882,7 @@
         padding: 20px 40px 36px;
         max-width: 700px !important;
     }
+   
 }
 
 @media (min-width: 992px) {
