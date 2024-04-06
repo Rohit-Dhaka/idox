@@ -618,6 +618,7 @@
     height: 170px;
 }
 
+
 .card-2:hover h5 {
     color: var(--blue-line);
 }
@@ -696,7 +697,8 @@
     filter: none;
     -webkit-filter: grayscale(0);
     -webkit-transform: scale(1.1);
-}
+}   
+
 .slider-two .slick-dots li.slick-active {
     background: var(--blue-line);
     width: 53px;
@@ -713,10 +715,11 @@
     background-color: var(--white-smoke);
     border-radius: 28px;
     text-align: center;
+    transition: all 200ms linear;
 }
 .slick-dots li button:before {    
-    content: ' ';   
-}
+    content: '';   
+}   
 /* ------------------------------------------slider-two */
 /* ------------------------------------------underline */
 .underline::after {
@@ -734,7 +737,7 @@
 }
 
 .underline:hover::after {
-    width: 100%;
+    width: 100%;    
 }
 
 /* ------------------------------------------underline */

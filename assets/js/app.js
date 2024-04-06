@@ -38,10 +38,10 @@ $('.slider-two').slick({
   dots: true,
   speed: 800,
   slidesToShow: 1,
-  centerMode: true,  
   autoplay:true,
   slidesToScroll: 1,
   cssEase: 'linear',  
+  centerMode: true,  
   variableWidth: true,          
   responsive: [
     {
@@ -112,6 +112,6 @@ document.addEventListener("DOMContentLoaded", function () {
       let loadingOverlay = document.getElementById("loadingOverlay");
       loadingOverlay.style.display = "none";
       document.querySelector("body").classList.remove("overflow_hidden");
-    },1000);
+    },);
   });
 });
