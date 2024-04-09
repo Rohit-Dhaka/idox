@@ -134,7 +134,8 @@
 }
 
 @media (min-width:575px) {
-    :root {                                                                  
+    :root {     
+        --fs-5xl: 18px;                                                             
         --fs-6xl: 18px;
         --fs-7xl: 30px;
         --fs-8xl: 40px;

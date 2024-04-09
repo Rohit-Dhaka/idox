@@ -5,8 +5,7 @@
     padding: 0;
     scroll-behavior: smooth;
     margin: 0;
-    list-style: none !important;
-    /* outline: 1px solid red; */
+    list-style: none !important;    
     text-decoration: none !important;
     box-sizing: border-box;
 }
@@ -385,6 +384,63 @@
 
 /* -------------------------------------------ellipse */
 /* -------------------------------------------accordion */
+    
+
+.accordion-item {
+    border: none !important;
+    border-radius: 10px !important;
+    background: rgba(3, 137, 255, 0.12) !important;
+    backdrop-filter: blur(12.5px) !important;
+    margin-bottom: 10px !important;
+    width: 100%;
+}
+
+.mh-550 {
+    min-height: 260px;
+}
+
+.accordion-body {
+    padding: 0 !important;
+    padding-left: 27px !important;
+    padding-bottom: 20px !important;
+}
+
+
+.tranlate-xy {
+    transform: translate(14px, 24px);
+}
+
+.accordion-button {
+    color: var(--white-smoke) !important;
+    transition: all 500ms linear !important;
+    padding: 22.5px 23.456px 23.5px 25.544px !important;
+}
+
+.accordion-button:not(.collapsed) {
+    padding-bottom: var(--bs-accordion-active-padding-bottom) !important;
+    transition: all 300ms linear !important;
+    color: var(--blue-line) !important;
+}
+
+.accordion {
+    --bs-accordion-bg: none !important;
+    --bs-accordion-active-bg: none !important;
+    --bs-accordion-border-width: none !important;
+    --bs-accordion-btn-focus-border-color: none !important;
+    --bs-accordion-btn-focus-box-shadow: none !important;
+    --bs-accordion-active-color: #0389ff !important;
+    --bs-accordion-active-padding-bottom: 7px !important;
+}
+
+.accordion-button:focus {
+    border-color: none !important;
+}
+
+.accordion-button::after {
+    content: unset !important;
+}
+
+
 
 /* -------------------------------------------accordion */
 
@@ -578,29 +634,6 @@
     max-width: 64px;
     background-color: var(--gray-500);
 }
-
-/* .box-2 {
-    padding: 22px 22px 23px;
-    border-radius: 10px;
-    transition: all 300ms linear !important;
-    background: var(--blue-100);
-}
-
-.box-2:hover {
-    padding: 17px 15px 35px;
-}
-
-.box-2:hover h4 {
-    color: var(--blue-line) !important;
-}
-
-.box-2:hover h5 {
-    display: block !important;
-}
-
-.box-2:hover .icon-box {
-    display: flex !important;
-} */
 
 .box-3 {
     border-radius: 10px;
