@@ -29,6 +29,7 @@ $('.first-slider').slick({
   pauseOnHover: false,
   cssEase: 'linear',     
   pauseOnHover:true, 
+  pauseOnHover:true, 
 });
 
 
@@ -42,7 +43,7 @@ $('.slider-two').slick({
   slidesToScroll: 1,
   cssEase: 'linear',  
   centerMode: true,  
-  variableWidth: true,          
+  variableWidth: true,  
   responsive: [
     {
       breakpoint: 1024,
