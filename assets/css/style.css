@@ -10,7 +10,14 @@
     text-decoration: none !important;
     box-sizing: border-box;
 }
-
+::-webkit-scrollbar{
+    background: transparent;
+    width: 8px;        
+}
+::-webkit-scrollbar-thumb{
+    background: var(--bg-color);
+    border-radius: 10px;
+}
 /* -------------------------------------------font-family */
 .font-Plus {
     font-family: "Plus Jakarta Sans", sans-serif;
